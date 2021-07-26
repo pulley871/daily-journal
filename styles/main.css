@@ -1,0 +1,37 @@
+.headerImg{
+    display: flex;
+    align-items: center;
+}
+#formContainer{
+    display: flex;
+    flex-direction: column;
+}
+form article {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 3em;
+
+    
+}
+form article > * {
+    margin-right: auto;
+    
+}
+.entryForm__submit{
+    width: 10em;
+}
+
+.individualEntry{
+    border: 2px solid aquamarine;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer p,
+a{
+    margin: .1em;
+}
